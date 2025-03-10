@@ -1,9 +1,8 @@
 let listaDeNumerosSorteados = [];
-<<<<<<< HEAD
-let numeroLimite = 59;
-=======
-let numeroLimite = 49;
->>>>>>> 2fba5fcb89759946fb043bb4d0db2c53376979a0
+
+let numeroLimite = 50;
+
+
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -15,11 +14,9 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto - TESTE 2 GIT HUB');
-<<<<<<< HEAD
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 59');
-=======
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 49');
->>>>>>> 2fba5fcb89759946fb043bb4d0db2c53376979a0
+
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 50');
+
 }
 
 exibirMensagemInicial();
